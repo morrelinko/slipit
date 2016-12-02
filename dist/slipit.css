@@ -1,0 +1,27 @@
+.slipit {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+  .slipit__wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateX(0px);
+    transition: 100ms ease all;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .slipit__left {
+    background: #000000;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 15px; }
+  .slipit__right {
+    background: #000000;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 15px; }
